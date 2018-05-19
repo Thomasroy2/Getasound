@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+#above {
+    height: 30%;
+}
+
+#bellow {
+    min-height: 70%;
+}
+
+#above, #bellow {
+    padding-left: 20%;
+}
+
+#first_title {
+    padding-top: 10%;
+    font-size: 52px;
+}
+
+#cibles_title, #contents_title, #infos_title {
+    padding-top: 4%;
+    font-size: 18px;
+}
+
+.col {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.card_title {
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.card {
+    padding: 15%;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+}
+
+#infos {
+    margin-left: 0;
+}
