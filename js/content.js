@@ -101,7 +101,6 @@ class Content {
         html += '</div>'
         html += '</div>'
 
-
         return html
     }
 
