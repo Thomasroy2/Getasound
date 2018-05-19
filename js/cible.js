@@ -12,7 +12,6 @@ class Cible {
     onReady() {
         console.log('Cible.onReady')
         let test = this.cibles.filter(cible => cible.name == "B2C")
-        console.log(this.cibles);
         this.setCibles()
     }
 

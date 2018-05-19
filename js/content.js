@@ -57,6 +57,7 @@ class Content {
         let selectedCible = $('#' + selectedContent.data('cible'))
         let selectedCibleContents = selectedCible.data('content')
 
+
         let selectedCibleContent = selectedCibleContents.filter(content => content.name == selectedContent.data('name'))
         selectedCibleContent[0].infos = target.val()
 
@@ -81,7 +82,7 @@ class Content {
         html += '<p class="card_title font-weight-normal">'
         html += content.name
         html += '</p>'
-        html += '<div class="card" data-cible=' + cible + ' data-name=' + content.name + ' data-infos=' + content.infos + '>'
+        html += '<div class="card" data-cible=' + cible + ' data-name=' + content.name + ' data-infos=' + JSON.stringify(content.infos) + '>'
         html += '<img class="mx-auto" src="https://assistant.getasound.com/assets/boy.png" alt="">'
         html += '</div>'
         html += '</div>'
